@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="صيدليات عبدالمنعم - خدمة صيدلانية احترافية، توصيل على مدار الساعة، فروع متعددة" />
+  <meta name="keywords" content="صيدلية، أدوية، توصيل، رعاية صحية، فروع، عبدالمنعم" />
+  <meta property="og:title" content="صيدليات عبدالمنعم" />
+  <meta property="og:description" content="خدمة صيدلانية موثوقة واحترافية" />
+  <meta property="og:type" content="website" />
+  <title>صيدليات عبدالمنعم | Abdel Moneim Pharmacies</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="lang-ar" data-theme="light">
+
+  <!-- ═══════════════════════════════════════════════
+       HEADER
+  ═══════════════════════════════════════════════ -->
+  <header id="header">
+    <div class="header-inner container">
+
+      <!-- Logo -->
+      <a href="#home" class="logo-link">
+        <div class="logo-placeholder">
+          <img src="assets/logo.png" alt="شعار صيدليات عبدالمنعم" class="logo-img"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+          <div class="logo-fallback">
+            <i class="fa-solid fa-pills"></i>
+            <span class="logo-text" data-ar="صيدليات عبدالمنعم" data-en="Abdel Moneim Pharmacies">صيدليات
+              عبدالمنعم</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="nav-desktop">
+        <a href="#home" class="nav-link" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
+        <a href="#about" class="nav-link" data-ar="من نحن" data-en="About">من نحن</a>
+        <a href="#services" class="nav-link" data-ar="خدماتنا" data-en="Services">خدماتنا</a>
+        <a href="#branches" class="nav-link" data-ar="الفروع" data-en="Branches">الفروع</a>
+        <a href="#gallery" class="nav-link" data-ar="معرض الصور" data-en="Gallery">معرض الصور</a>
+        <a href="#contact" class="nav-link" data-ar="تواصل معنا" data-en="Contact">تواصل معنا</a>
+      </nav>
+
+      <!-- Controls -->
+      <div class="header-controls">
+        <button id="langToggle" class="ctrl-btn" title="Switch Language" aria-label="Switch Language">
+          <span class="lang-label-ar">EN</span>
+          <span class="lang-label-en">ع</span>
+        </button>
+        <button id="themeToggle" class="ctrl-btn" title="Toggle Theme" aria-label="Toggle Theme">
+          <i class="fa-solid fa-moon icon-dark"></i>
+          <i class="fa-solid fa-sun  icon-light"></i>
+        </button>
+        <button id="menuToggle" class="ctrl-btn mobile-only" aria-label="Open Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Nav -->
+    <nav id="mobileNav" class="nav-mobile" aria-hidden="true">
+      <a href="#home" class="nav-link" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
+      <a href="#about" class="nav-link" data-ar="من نحن" data-en="About">من نحن</a>
+      <a href="#services" class="nav-link" data-ar="خدماتنا" data-en="Services">خدماتنا</a>
+      <a href="#branches" class="nav-link" data-ar="الفروع" data-en="Branches">الفروع</a>
+      <a href="#gallery" class="nav-link" data-ar="معرض الصور" data-en="Gallery">معرض الصور</a>
+      <a href="#contact" class="nav-link" data-ar="تواصل معنا" data-en="Contact">تواصل معنا</a>
+    </nav>
+  </header>
+
+  <!-- ═══════════════════════════════════════════════
+       HERO
+  ═══════════════════════════════════════════════ -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <img src="assets/Hero.jpg" alt="صيدليات عبدالمنعم" class="hero-img" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content container fade-in">
+      <div class="hero-badge">
+        <i class="fa-solid fa-shield-heart"></i>
+        <span data-ar="موثوق · محترف · متاح دائماً" data-en="Trusted · Professional · Always Available">موثوق · محترف ·
+          متاح دائماً</span>
+      </div>
+      <h1 class="hero-title">
+        <span data-ar="صحتك" data-en="Your Health">صحتك</span>
+        <span class="hero-title-accent" data-ar="أمانتنا" data-en="Our Trust">أمانتنا</span>
+      </h1>
+      <p class="hero-desc"
+        data-ar="نقدم خدمات صيدلانية متميزة مع فروع متعددة وتوصيل على مدار الساعة. فريقنا المتخصص مستعد لخدمتك وتقديم المشورة الصحية في أي وقت."
+        data-en="We provide distinguished pharmacy services with multiple branches and 24/7 delivery. Our specialized team is ready to serve you and provide health consultations at any time.">
+        نقدم خدمات صيدلانية متميزة مع فروع متعددة وتوصيل على مدار الساعة. فريقنا المتخصص مستعد لخدمتك وتقديم المشورة
+        الصحية في أي وقت.
+      </p>
+
+      <div class="hero-btns">
+        <a href="https://wa.me/201066653311" target="_blank" class="btn btn-whatsapp">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span data-ar="واتساب" data-en="WhatsApp">واتساب</span>
+        </a>
+        <a href="tel:+201066653311" class="btn btn-call">
+          <i class="fa-solid fa-phone"></i>
+          <span data-ar="اتصل بنا" data-en="Call Now">اتصل بنا</span>
+        </a>
+        <a href="#branches" class="btn btn-outline">
+          <i class="fa-solid fa-location-dot"></i>
+          <span data-ar="فروعنا" data-en="Our Branches">فروعنا</span>
+        </a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-num">٣</span>
+          <span class="stat-label" data-ar="فروع" data-en="Branches">فروع</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num">٢٤/٧</span>
+          <span class="stat-label" data-ar="توصيل" data-en="Delivery">توصيل</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num">+١٠</span>
+          <span class="stat-label" data-ar="سنوات خبرة" data-en="Years Exp.">سنوات خبرة</span>
+        </div>
+      </div>
+    </div>
+
+    <a href="#highlights" class="hero-scroll-hint" aria-label="Scroll down">
+      <i class="fa-solid fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       HIGHLIGHTS
+  ═══════════════════════════════════════════════ -->
+  <section id="highlights" class="highlights">
+    <div class="container highlights-grid">
+
+      <div class="highlight-card fade-in">
+        <div class="hl-icon"><i class="fa-solid fa-truck-fast"></i></div>
+        <h3 data-ar="توصيل ٢٤/٧" data-en="24/7 Delivery">توصيل ٢٤/٧</h3>
+        <p data-ar="نوصل طلبك في أي وقت من الليل أو النهار" data-en="We deliver your order day or night, any time">نوصل
+          طلبك في أي وقت من الليل أو النهار</p>
+      </div>
+
+      <div class="highlight-card fade-in">
+        <div class="hl-icon"><i class="fa-solid fa-code-branch"></i></div>
+        <h3 data-ar="فروع متعددة" data-en="Multiple Branches">فروع متعددة</h3>
+        <p data-ar="٣ فروع في خدمتك لراحتك واحتياجاتك" data-en="3 branches at your service for your convenience">٣ فروع
+          في خدمتك لراحتك واحتياجاتك</p>
+      </div>
+
+      <div class="highlight-card fade-in">
+        <div class="hl-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+        <h3 data-ar="قياس الضغط" data-en="Blood Pressure Test">قياس الضغط</h3>
+        <p data-ar="قياس ضغط الدم مجاناً في جميع الفروع" data-en="Free blood pressure testing at all branches">قياس ضغط
+          الدم مجاناً في جميع الفروع</p>
+      </div>
+
+      <div class="highlight-card fade-in">
+        <div class="hl-icon"><i class="fa-solid fa-droplet"></i></div>
+        <h3 data-ar="قياس السكر" data-en="Blood Sugar Test">قياس السكر</h3>
+        <p data-ar="فحص سكر الدم السريع والدقيق" data-en="Fast and accurate blood sugar testing">فحص سكر الدم السريع
+          والدقيق</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       ABOUT
+  ═══════════════════════════════════════════════ -->
+  <section id="about" class="about section-pad">
+    <div class="container about-inner">
+      <div class="about-img-wrap fade-in">
+        <img src="assets/logo.png" alt="صيدليات عبدالمنعم" class="about-img" />
+        <div class="about-img-badge">
+          <i class="fa-solid fa-award"></i>
+          <span data-ar="موثوق منذ أكثر من ١٠ سنوات" data-en="Trusted for over 10 years">موثوق منذ أكثر من ١٠
+            سنوات</span>
+        </div>
+      </div>
+      <div class="about-text fade-in">
+        <span class="section-eyebrow" data-ar="من نحن" data-en="About Us">من نحن</span>
+        <h2 class="section-title" data-ar="صيدلية تهتم بك حقاً" data-en="A Pharmacy That Truly Cares">صيدلية تهتم بك
+          حقاً</h2>
+        <p data-ar="نحن مجموعة صيدليات متخصصة نقدم خدمات صيدلانية عالية الجودة لمجتمعنا منذ أكثر من عشر سنوات. نؤمن أن الرعاية الصحية الجيدة تبدأ بالثقة والاحترافية."
+          data-en="We are a specialized pharmacy group providing high-quality pharmaceutical services to our community for over ten years. We believe that good healthcare starts with trust and professionalism.">
+          نحن مجموعة صيدليات متخصصة نقدم خدمات صيدلانية عالية الجودة لمجتمعنا منذ أكثر من عشر سنوات. نؤمن أن الرعاية
+          الصحية الجيدة تبدأ بالثقة والاحترافية.
+        </p>
+        <p data-ar="فريقنا من الصيادلة المرخصين والمدربين يحرص على تقديم أفضل خدمة ممكنة، سواء في توفير الأدوية أو في تقديم الاستشارات الصحية المناسبة."
+          data-en="Our team of licensed and trained pharmacists is committed to providing the best possible service, whether in providing medicines or offering appropriate health consultations.">
+          فريقنا من الصيادلة المرخصين والمدربين يحرص على تقديم أفضل خدمة ممكنة، سواء في توفير الأدوية أو في تقديم
+          الاستشارات الصحية المناسبة.
+        </p>
+        <div class="about-points">
+          <div class="about-point"><i class="fa-solid fa-circle-check"></i><span data-ar="صيادلة مرخصون ومؤهلون"
+              data-en="Licensed & qualified pharmacists">صيادلة مرخصون ومؤهلون</span></div>
+          <div class="about-point"><i class="fa-solid fa-circle-check"></i><span data-ar="أدوية أصلية معتمدة"
+              data-en="Genuine certified medicines">أدوية أصلية معتمدة</span></div>
+          <div class="about-point"><i class="fa-solid fa-circle-check"></i><span data-ar="خدمة عملاء متميزة"
+              data-en="Distinguished customer service">خدمة عملاء متميزة</span></div>
+          <div class="about-point"><i class="fa-solid fa-circle-check"></i><span data-ar="أسعار تنافسية ومناسبة"
+              data-en="Competitive and fair prices">أسعار تنافسية ومناسبة</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       SERVICES
+  ═══════════════════════════════════════════════ -->
+  <section id="services" class="services section-pad bg-alt">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-eyebrow" data-ar="ما نقدمه" data-en="What We Offer">ما نقدمه</span>
+        <h2 class="section-title" data-ar="خدماتنا" data-en="Our Services">خدماتنا</h2>
+        <p class="section-sub" data-ar="نقدم مجموعة شاملة من الخدمات الصيدلانية والصحية"
+          data-en="We offer a comprehensive range of pharmaceutical and health services">نقدم مجموعة شاملة من الخدمات
+          الصيدلانية والصحية</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card fade-in">
+          <div class="srv-icon-wrap"><i class="fa-solid fa-prescription-bottle-medical"></i></div>
+          <h3 data-ar="الأدوية الموصوفة" data-en="Prescription Medicines">الأدوية الموصوفة</h3>
+          <p data-ar="توفير جميع الأدوية الموصوفة بدقة وسرعة مع مراجعة الجرعات"
+            data-en="Providing all prescription medicines accurately and quickly with dosage review">توفير جميع الأدوية
+            الموصوفة بدقة وسرعة مع مراجعة الجرعات</p>
+        </div>
+
+        <div class="service-card fade-in">
+          <div class="srv-icon-wrap"><i class="fa-solid fa-capsules"></i></div>
+          <h3 data-ar="أدوية بدون وصفة" data-en="Over-the-Counter Medicines">أدوية بدون وصفة</h3>
+          <p data-ar="مجموعة واسعة من الأدوية والمستحضرات الصحية المتاحة مباشرة"
+            data-en="A wide range of medicines and health preparations available directly">مجموعة واسعة من الأدوية
+            والمستحضرات الصحية المتاحة مباشرة</p>
+        </div>
+
+        <div class="service-card fade-in">
+          <div class="srv-icon-wrap"><i class="fa-solid fa-truck-fast"></i></div>
+          <h3 data-ar="توصيل ٢٤ ساعة" data-en="24/7 Delivery">توصيل ٢٤ ساعة</h3>
+          <p data-ar="خدمة توصيل سريعة إلى باب منزلك في أي وقت تحتاج"
+            data-en="Fast delivery service to your door any time you need">خدمة توصيل سريعة إلى باب منزلك في أي وقت
+            تحتاج</p>
+        </div>
+
+        <!-- دمج قياس الضغط والسكر معاً -->
+        <div class="service-card fade-in">
+          <div class="srv-icon-wrap"><i class="fa-solid fa-heart-pulse"></i></div>
+          <h3 data-ar="قياس الضغط والسكر" data-en="Blood Pressure & Sugar Testing">قياس الضغط والسكر</h3>
+          <p data-ar="فحص دقيق لضغط الدم ومستوى السكر مجاناً بواسطة فريقنا المتخصص"
+            data-en="Accurate blood pressure and sugar level testing, free of charge by our specialized team">فحص دقيق
+            لضغط الدم ومستوى السكر مجاناً بواسطة فريقنا المتخصص</p>
+        </div>
+
+        <!-- خدمة InBody الجديدة -->
+        <div class="service-card fade-in">
+          <div class="srv-icon-wrap"><i class="fa-solid fa-weight-scale"></i></div>
+          <h3 data-ar="تحليل الجسم InBody" data-en="InBody Body Composition Analysis">تحليل الجسم InBody</h3>
+          <p data-ar="تحليل دقيق لتكوين الجسم (الدهون، العضلات، الماء) لمتابعة صحتك ولياقتك"
+            data-en="Accurate body composition analysis (fat, muscle, water) to track your health and fitness">تحليل
+            دقيق لتكوين الجسم (الدهون، العضلات، الماء) لمتابعة صحتك ولياقتك</p>
+        </div>
+
+        <div class="service-card fade-in">
+          <div class="srv-icon-wrap"><i class="fa-solid fa-user-doctor"></i></div>
+          <h3 data-ar="استشارات صحية" data-en="Healthcare Consultation">استشارات صحية</h3>
+          <p data-ar="استشارة صيدلانية متخصصة مجانية لكل عملائنا الكرام"
+            data-en="Free specialized pharmaceutical consultation for all our valued customers">استشارة صيدلانية متخصصة
+            مجانية لكل عملائنا الكرام</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- ═══════════════════════════════════════════════
+       WHY CHOOSE US
+  ═══════════════════════════════════════════════ -->
+  <section class="why section-pad">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-eyebrow" data-ar="لماذا نحن" data-en="Why Us">لماذا نحن</span>
+        <h2 class="section-title" data-ar="لماذا تختار صيدليتنا؟" data-en="Why Choose Our Pharmacy?">لماذا تختار
+          صيدليتنا؟</h2>
+      </div>
+      <div class="why-grid">
+
+        <div class="why-card fade-in">
+          <div class="why-num">٠١</div>
+          <i class="fa-solid fa-star why-icon"></i>
+          <h3 data-ar="خدمة احترافية" data-en="Professional Service">خدمة احترافية</h3>
+          <p data-ar="فريق مدرب على أعلى مستوى من الاحترافية والكفاءة"
+            data-en="A team trained to the highest level of professionalism and efficiency">فريق مدرب على أعلى مستوى من
+            الاحترافية والكفاءة</p>
+        </div>
+
+        <div class="why-card fade-in">
+          <div class="why-num">٠٢</div>
+          <i class="fa-solid fa-shield-halved why-icon"></i>
+          <h3 data-ar="رعاية موثوقة" data-en="Trusted Healthcare">رعاية موثوقة</h3>
+          <p data-ar="أدوية أصلية مضمونة الجودة من مصادر معتمدة"
+            data-en="Genuine medicines of guaranteed quality from approved sources">أدوية أصلية مضمونة الجودة من مصادر
+            معتمدة</p>
+        </div>
+
+        <div class="why-card fade-in">
+          <div class="why-num">٠٣</div>
+          <i class="fa-solid fa-location-dot why-icon"></i>
+          <h3 data-ar="فروع قريبة منك" data-en="Branches Near You">فروع قريبة منك</h3>
+          <p data-ar="٣ فروع في مناطق مختلفة لخدمتك بشكل أفضل"
+            data-en="3 branches in different areas to serve you better">٣ فروع في مناطق مختلفة لخدمتك بشكل أفضل</p>
+        </div>
+
+        <div class="why-card fade-in">
+          <div class="why-num">٠٤</div>
+          <i class="fa-solid fa-bolt why-icon"></i>
+          <h3 data-ar="توصيل سريع" data-en="Fast Delivery">توصيل سريع</h3>
+          <p data-ar="نضمن وصول طلبك في أسرع وقت ممكن دون تأخير"
+            data-en="We guarantee your order arrives as quickly as possible without delay">نضمن وصول طلبك في أسرع وقت
+            ممكن دون تأخير</p>
+        </div>
+
+        <div class="why-card fade-in">
+          <div class="why-num">٠٥</div>
+          <i class="fa-solid fa-user-doctor why-icon"></i>
+          <h3 data-ar="فريق متخصص" data-en="Experienced Team">فريق متخصص</h3>
+          <p data-ar="صيادلة ذوو خبرة واسعة في مختلف المجالات الدوائية"
+            data-en="Pharmacists with extensive experience in various pharmaceutical fields">صيادلة ذوو خبرة واسعة في
+            مختلف المجالات الدوائية</p>
+        </div>
+
+        <div class="why-card fade-in">
+          <div class="why-num">٠٦</div>
+          <i class="fa-solid fa-face-smile why-icon"></i>
+          <h3 data-ar="رضا العملاء" data-en="Customer Satisfaction">رضا العملاء</h3>
+          <p data-ar="رضاك هو أولويتنا القصوى في كل تعامل معك"
+            data-en="Your satisfaction is our top priority in every interaction">رضاك هو أولويتنا القصوى في كل تعامل معك
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       BRANCHES
+  ═══════════════════════════════════════════════ -->
+  <section id="branches" class="branches section-pad bg-alt">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-eyebrow" data-ar="أماكننا" data-en="Our Locations">أماكننا</span>
+        <h2 class="section-title" data-ar="فروعنا" data-en="Our Branches">فروعنا</h2>
+        <p class="section-sub" data-ar="اختر أقرب فرع إليك" data-en="Choose the branch closest to you">اختر أقرب فرع
+          إليك</p>
+      </div>
+      <div class="branches-grid">
+
+        <!-- Branch 1 — Main -->
+        <div class="branch-card fade-in">
+          <div class="branch-img-wrap">
+            <img src="assets/BranchOne/main.png" alt="الفرع الرئيسي" class="branch-img"
+              onerror="this.src='https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=600&q=80'" />
+            <span class="branch-badge" data-ar="الفرع الرئيسي" data-en="Main Branch">الفرع الرئيسي</span>
+          </div>
+          <div class="branch-info">
+            <h3 class="branch-name" data-ar="الفرع الرئيسي" data-en="Main Branch">الفرع الرئيسي</h3>
+            <div class="branch-detail">
+              <i class="fa-solid fa-location-dot"></i>
+              <span data-ar="شارع أحمد ماهر، بجوار مطعم أوطة، أمام الشابوري للأجهزة الكهربائية"
+                data-en="Ahmed Maher St., Next to Otta Restaurant, Opposite El Shabory Electrical Appliances">
+                شارع أحمد ماهر، بجوار مطعم أوطة، أمام الشابوري للأجهزة الكهربائية
+              </span>
+            </div>
+            <div class="branch-detail">
+              <i class="fa-solid fa-clock"></i>
+              <span data-ar="٢٤/٧" data-en="24/7">٢٤/٧</span>
+            </div>
+            <div class="branch-detail">
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:0502223016" class="branch-phone">050 222 3016</a>
+            </div>
+            <div class="branch-actions">
+              <a href="https://share.google/0lRrPYfTuiIxK4pHZ" target="_blank" rel="noopener noreferrer"
+                class="btn btn-map">
+                <i class="fa-solid fa-map"></i>
+                <span data-ar="الموقع على الخريطة" data-en="View on Map">الموقع على الخريطة</span>
+              </a>
+              <a href="tel:0502223016" class="btn btn-outline-sm" aria-label="اتصل بالفرع الرئيسي">
+                <i class="fa-solid fa-phone"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Branch 2 -->
+        <div class="branch-card fade-in">
+          <div class="branch-img-wrap">
+            <img src="assets/BranchTwo/main.jpg" alt="فرع أحمد ماهر الثاني" class="branch-img"
+              onerror="this.src='https://images.unsplash.com/photo-1585435557343-3b092031a831?w=600&q=80'" />
+            <span class="branch-badge secondary" data-ar="الفرع الثاني" data-en="Branch 2">الفرع الثاني</span>
+          </div>
+          <div class="branch-info">
+            <h3 class="branch-name" data-ar="فرع أحمد ماهر الثاني" data-en="Ahmed Maher Second Branch">فرع أحمد ماهر
+              الثاني</h3>
+            <div class="branch-detail">
+              <i class="fa-solid fa-location-dot"></i>
+              <span data-ar="أحمد ماهر، أمام مركز نيو لايف" data-en="Ahmed Maher St., Opposite New Life Center">
+                أحمد ماهر، أمام مركز نيو لايف
+              </span>
+            </div>
+            <div class="branch-detail">
+              <i class="fa-solid fa-clock"></i>
+              <span data-ar="٨ ص – ٣ ص" data-en="8 AM – 3 AM">٨ ص – ٣ ص</span>
+            </div>
+            <div class="branch-detail">
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:0502383334" class="branch-phone">050 238 3334</a>
+            </div>
+            <div class="branch-actions">
+              <a href="https://maps.app.goo.gl/jXjqjjK1oyRz3UnB9" target="_blank" rel="noopener noreferrer"
+                class="btn btn-map">
+                <i class="fa-solid fa-map"></i>
+                <span data-ar="الموقع على الخريطة" data-en="View on Map">الموقع على الخريطة</span>
+              </a>
+              <a href="tel:0502383334" class="btn btn-outline-sm" aria-label="اتصل بفرع أحمد ماهر الثاني">
+                <i class="fa-solid fa-phone"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Branch 3 -->
+        <div class="branch-card fade-in">
+          <div class="branch-img-wrap">
+            <img src="assets/BranchThree/main.jpg" alt="فرع تقسيم خطاب" class="branch-img"
+              onerror="this.src='https://images.unsplash.com/photo-1516069677018-378515003435?w=600&q=80'" />
+            <span class="branch-badge secondary" data-ar="فرع تقسيم خطاب" data-en="Khattab Branch">فرع تقسيم خطاب</span>
+          </div>
+          <div class="branch-info">
+            <h3 class="branch-name" data-ar="فرع تقسيم خطاب" data-en="Khattab District Branch">فرع تقسيم خطاب</h3>
+            <div class="branch-detail">
+              <i class="fa-solid fa-location-dot"></i>
+              <span data-ar="تقسيم خطاب، بجوار كافيه القزاز" data-en="Khattab District, Next to El Qazzaz Cafe">
+                تقسيم خطاب، بجوار كافيه القزاز
+              </span>
+            </div>
+            <div class="branch-detail">
+              <i class="fa-solid fa-clock"></i>
+              <span data-ar="٢٤/٧" data-en="24/7">٢٤/٧</span>
+            </div>
+            <div class="branch-detail">
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:0502233112" class="branch-phone">050 223 3112</a>
+            </div>
+            <div class="branch-actions">
+              <a href="https://maps.app.goo.gl/teiNVYMXKvXfGdJp7" target="_blank" rel="noopener noreferrer"
+                class="btn btn-map">
+                <i class="fa-solid fa-map"></i>
+                <span data-ar="الموقع على الخريطة" data-en="View on Map">الموقع على الخريطة</span>
+              </a>
+              <a href="tel:0502233112" class="btn btn-outline-sm" aria-label="اتصل بفرع تقسيم خطاب">
+                <i class="fa-solid fa-phone"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       GALLERY
+  ═══════════════════════════════════════════════ -->
+  <section id="gallery" class="gallery section-pad">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-eyebrow" data-ar="من داخلنا" data-en="Inside Our Pharmacy">من داخلنا</span>
+        <h2 class="section-title" data-ar="معرض الصور" data-en="Photo Gallery">معرض الصور</h2>
+        <p class="section-sub" data-ar="نظرة داخل صيدليتنا وبيئة العمل المتميزة"
+          data-en="A look inside our pharmacy and distinguished work environment">نظرة داخل صيدليتنا وبيئة العمل
+          المتميزة</p>
+      </div>
+      <div class="gallery-grid fade-in">
+
+        <!-- data-src now matches the thumbnail src for local images -->
+        <div class="gallery-item" data-src="assets/BranchOne/1.jpg">
+          <img src="assets/BranchOne/1.jpg" alt="صيدليات عبدالمنعم - الفرع الأول" loading="lazy" />
+          <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+        </div>
+
+        <div class="gallery-item" data-src="assets/BranchTwo/1.jpg">
+          <img src="assets/BranchTwo/1.jpg" alt="صيدليات عبدالمنعم - الفرع الثاني" loading="lazy" />
+          <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+        </div>
+
+        <div class="gallery-item" data-src="assets/BranchTwo/2.jpg">
+          <img src="assets/BranchTwo/2.jpg" alt="صيدليات عبدالمنعم - الفرع الثاني" loading="lazy" />
+          <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+        </div>
+
+        <div class="gallery-item" data-src="assets/BranchThree/1.jpg">
+          <img src="assets/BranchThree/1.jpg" alt="صيدليات عبدالمنعم - فرع خطاب" loading="lazy" />
+          <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+        </div>
+
+        <div class="gallery-item" data-src="assets/BranchThree/2.jpg">
+          <img src="assets/BranchThree/2.jpeg" alt="صيدليات عبدالمنعم - فرع خطاب" loading="lazy" />
+          <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+        </div>
+
+        <div class="gallery-item" data-src="assets/BranchOne/2.jpg">
+          <img src="assets/BranchOne/2.jpg" alt="صيدليات عبدالمنعم - الفرع الأول" loading="lazy" />
+          <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <button class="lb-close" id="lbClose" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+    <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous"><i class="fa-solid fa-chevron-right"></i></button>
+    <button class="lb-nav lb-next" id="lbNext" aria-label="Next"><i class="fa-solid fa-chevron-left"></i></button>
+    <div class="lb-img-wrap">
+      <img id="lbImg" src="" alt="Enlarged view" />
+    </div>
+    <div class="lb-counter" id="lbCounter">1 / 6</div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════
+       CONTACT
+  ═══════════════════════════════════════════════ -->
+  <section id="contact" class="contact section-pad bg-alt">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-eyebrow" data-ar="نحن هنا" data-en="We're Here">نحن هنا</span>
+        <h2 class="section-title" data-ar="تواصل معنا" data-en="Contact Us">تواصل معنا</h2>
+        <p class="section-sub" data-ar="نحن دائماً متاحون للإجابة على استفساراتكم"
+          data-en="We are always available to answer your inquiries">نحن دائماً متاحون للإجابة على استفساراتكم</p>
+      </div>
+      <div class="contact-grid">
+
+
+        <div class="contact-card fade-in">
+          <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+          <h3 data-ar="أرقام الفروع" data-en="Branch Numbers">أرقام الفروع</h3>
+          <a href="tel:0502223016" dir="ltr" style="unicode-bidi: bidi-override;">٠٥٠ ٢٢٢ ٣٠١٦</a>
+          <a href="tel:0502383334" dir="ltr" style="unicode-bidi: bidi-override;">٠٥٠ ٢٣٨ ٣٣٣٤</a>
+          <a href="tel:0502233112" dir="ltr" style="unicode-bidi: bidi-override;">٠٥٠ ٢٢٣ ٣١١٢</a>
+        </div>
+
+        <div class="contact-card fade-in">
+          <div class="contact-icon"><i class="fa-solid fa-truck-fast"></i></div>
+          <h3 data-ar="خط التوصيل" data-en="Delivery Line">خط التوصيل</h3>
+          <a href="tel:+201066653311" dir="ltr">+20 106 665 3311</a>
+          <p data-ar="متاح ٢٤ ساعة طوال الأسبوع" data-en="Available 24 hours a day, 7 days a week">متاح ٢٤ ساعة طوال
+            الأسبوع</p>
+        </div>
+
+        <div class="contact-card fade-in">
+          <div class="contact-icon"><i class="fa-solid fa-headset"></i></div>
+          <h3 data-ar="خدمة العملاء" data-en="Customer Service">خدمة العملاء</h3>
+          <a href="tel:+201066653311" dir="ltr">+20 106 665 3311</a>
+          <p data-ar="متاح ٢٤ ساعة" data-en="Available 24 hours">متاح ٢٤ ساعة</p>
+        </div>
+
+        <div class="contact-card contact-social fade-in">
+          <div class="contact-icon"><i class="fa-solid fa-share-nodes"></i></div>
+          <h3 data-ar="تواصل عبر" data-en="Reach Us On">تواصل عبر</h3>
+          <div class="social-btns">
+            <a href="https://wa.me/201066653311" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span>WhatsApp</span>
+            </a>
+            <a href="https://www.facebook.com/p/%D8%B5%D9%8A%D8%AF%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%AF%D9%83%D8%AA%D9%88%D8%B1-%D8%B9%D8%A8%D8%AF-%D8%A7%D9%84%D9%85%D9%86%D8%B9%D9%85-100064291711022/"
+              target="_blank" rel="noopener noreferrer" class="btn btn-facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+              <span>Facebook</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-col">
+        <div class="footer-logo">
+          <img src="assets/logo.png" alt="صيدليات عبدالمنعم" class="footer-logo-img"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+          <div class="logo-fallback small">
+            <i class="fa-solid fa-pills"></i>
+            <span data-ar="صيدليات عبدالمنعم" data-en="Abdel Moneim Pharmacies">صيدليات عبدالمنعم</span>
+          </div>
+        </div>
+        <p class="footer-tagline" data-ar="صحتك أمانتنا — نخدمكم بكل حب واحتراف"
+          data-en="Your health is our trust — serving you with love and professionalism">صحتك أمانتنا — نخدمكم بكل حب
+          واحتراف</p>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading" data-ar="روابط سريعة" data-en="Quick Links">روابط سريعة</h4>
+        <nav class="footer-nav">
+          <a href="#home" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
+          <a href="#about" data-ar="من نحن" data-en="About">من نحن</a>
+          <a href="#services" data-ar="خدماتنا" data-en="Services">خدماتنا</a>
+          <a href="#branches" data-ar="الفروع" data-en="Branches">الفروع</a>
+          <a href="#gallery" data-ar="معرض الصور" data-en="Gallery">معرض الصور</a>
+          <a href="#contact" data-ar="تواصل معنا" data-en="Contact">تواصل معنا</a>
+        </nav>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading" data-ar="معلومات التواصل" data-en="Contact Info">معلومات التواصل</h4>
+        <div class="footer-contact">
+          <a href="tel:+201066653311">
+            <i class="fa-solid fa-truck-fast"></i> +20 106 665 3311
+          </a>
+          <a href="tel:+201066653311">
+            <i class="fa-solid fa-headset"></i> +20 106 665 3311
+          </a>
+          <a href="https://wa.me/201066653311" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-whatsapp"></i> WhatsApp
+          </a>
+          <a href="https://www.facebook.com/p/%D8%B5%D9%8A%D8%AF%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%AF%D9%83%D8%AA%D9%88%D8%B1-%D8%B9%D8%A8%D8%AF-%D8%A7%D9%84%D9%85%D9%86%D8%B9%D9%85-100064291711022/"
+            target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-facebook-f"></i> Facebook
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>
+        <span data-ar="© ٢٠٢٥ صيدليات عبدالمنعم. جميع الحقوق محفوظة."
+          data-en="© 2026 Abdel Moneim Pharmacies. All rights reserved.">
+          © ٢٠٢٦ صيدليات عبدالمنعم. جميع الحقوق محفوظة.
+        </span>
+      </p>
+    </div>
+  </footer>
+
+  <!-- ═══════════════════════════════════════════════
+       FLOATING BUTTONS
+  ═══════════════════════════════════════════════ -->
+  <div class="fab-group" id="fabGroup">
+    <button class="fab fab-top" id="fabTop" aria-label="Back to top" title="Back to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <a href="tel:+201066653311" class="fab fab-call" aria-label="Call us" title="Call Now">
+      <i class="fa-solid fa-phone"></i>
+    </a>
+    <a href="https://wa.me/201066653311" target="_blank" rel="noopener noreferrer" class="fab fab-wa"
+      aria-label="WhatsApp" title="WhatsApp">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
